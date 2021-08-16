@@ -16,10 +16,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-git push -f https://ericacadu.github.io/ master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://ericacadu.github.io/Todolist/ master:gh-pages
+git push -f https://github.com/ericacadu/Todolist.git master:gh-pages
 
 cd -
